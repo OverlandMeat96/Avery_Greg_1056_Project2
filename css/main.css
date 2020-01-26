@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Socument */
+
+.container {
+  width: 530px;
+  align-items: center;
+}
+
+#heroimg {
+  width: 859px;
+  height: 527.47px;
+}
+
+.blue_bar {
+  background-color: #00618d;
+  width: 762px;
+  height: 8px;
+  margin: 65px 48px 65px 48px;
+}
+
+h2 {
+  font-family: "Bahnschrift", Arial;
+  font-size: 50px;
+  line-height: 36px;
+  margin: 0px 0px 12px 0px;
+}
+
+h3 {
+  font-family: "Bahnschrift", Arial;
+  font-size: 25px;
+  color: #787878;
+  line-height: 18px;
+  margin: 0px 0px 60px 0px;
+}
+
+.mainpgph {
+  font-family: "Bahnschrift", Arial;
+  font-size: 25px;
+  width: 850px;
+  margin: 0px 0px 60px 0px;
+}
+
+
+.Oleos {
+	font-family: 'Oleo Script', cursive;
+	src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  font-size: 25px;
+  line-height: ;
+  text-transform: uppercase;
+}
+
+.Oleol {
+	font-family: 'Oleo Script', cursive;
+	src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  font-size: 50px;
+  line-height: ;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+#mainNav ul li:first-child
+{
+	border-top: none;
+}
+
+#mainNav ul li:last-child
+{
+	border-bottom: 5px solid #353546
+}
