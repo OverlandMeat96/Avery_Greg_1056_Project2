@@ -3,7 +3,8 @@
 
 .container {
   width: 530px;
-  align-items: center;
+  margin: 0 auto;
+  padding: 0px 200px 0px 0px;
 }
 
 #heroimg {
@@ -19,7 +20,11 @@
 }
 
 h2 {
-  font-family: "Bahnschrift", Arial;
+  font-family: 'Oleo Script', cursive;
+	src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  text-transform: uppercase;
   font-size: 50px;
   line-height: 36px;
   margin: 0px 0px 12px 0px;
@@ -33,7 +38,15 @@ h3 {
   margin: 0px 0px 60px 0px;
 }
 
+
 .mainpgph {
+  font-family: "Bahnschrift", Arial;
+  font-size: 25px;
+  width: 850px;
+  margin: 40px 0px 60px 0px;
+}
+
+.mainpgph2 {
   font-family: "Bahnschrift", Arial;
   font-size: 25px;
   width: 850px;
@@ -41,14 +54,22 @@ h3 {
 }
 
 
-.Oleos {
+.Oleos1 {
 	font-family: 'Oleo Script', cursive;
 	src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
-  font-size: 25px;
-  line-height: ;
   text-transform: uppercase;
+  font-size: 25px;
+  margin: 0px 0px 100px 0px;
+}
+
+.boldtitle {
+	font-family: "Bahnschrift", Arial;
+	font-weight: Bold;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0px 0px 0px 0px;
 }
 
 .Oleol {
@@ -61,20 +82,37 @@ h3 {
   text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-#mainNav ul li:first-child
-{
-	border-top: none;
+.list li{
+  font-family: "Bahnschrift", Arial;
+  font-size: 25px;
+  width: 850px;
+  margin: 30px 0px 0px 0px;
 }
 
-#mainNav ul li:last-child
-{
-	border-bottom: 5px solid #353546
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 0px 370px;
+}
+
+.images img {
+  width: 174px;
+  height: 174px;
+  margin: 20px 0px 0px 10px;
+}
+
+p::first-letter {
+  color: #0e4e83;
+  font-size: 40px;
+}
+
+.webLink {
+  font-family: 'Oleo Script', cursive;
+	src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  font-size: 40px;
+  line-height: ;
+  text-transform: uppercase;
+  margin: 0px 0px 30px 160px;
 }

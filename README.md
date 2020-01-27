@@ -2,7 +2,7 @@
 
 # Project 2: Web Typography
 
-This is the my web page for Project 2. This page includes two different font family's, "Bahnschrift" and "Oleo Script", with the backup font being "Arial". Both of the fonts can be found in google font, but are also included with the files. All the images and text are from the Muskoka Brewing  website and are owned by them.
+This is the my web page for Project 2. This page includes two different font family's, "Bahnschrift" and "Oleo Script", with the backup font being "Arial". All of the fonts can be found in google font, but are also included with the files. All the images and text are from the Muskoka Brewing  website and are owned by them.
 
 ### Getting Started
 This is a basic HTML / CSS / JavaScript build.
